@@ -1,0 +1,209 @@
+[
+  {
+    "id": "kurzgesagt",
+    "name": "Kurzgesagt",
+    "mark": "Kg",
+    "topics": [
+      "Science",
+      "Space",
+      "Big ideas"
+    ],
+    "style": "Visual storytelling",
+    "description": "Kurzgesagt creates high-quality animated videos that explore big ideas in science, philosophy, and technology. The team is known for their optimistic nihilism and eye-catching visual style. Topics include the fate of the universe, AI, space exploration, viruses, and human psychology. Their mission is to spark curiosity and help people understand the world more deeply.",
+    "audience": "Students who love big questions, futuristic concepts, animated storytelling, and science explained with deep meaning.",
+    "englishTip": "Watch once for the animation, then replay with subtitles to connect key words to the visuals.",
+    "url": "https://www.youtube.com/@kurzgesagt",
+    "channelId": "UCsXVk37bltHxD1rDPwtNM8Q"
+  },
+  {
+    "id": "veritasium",
+    "name": "Veritasium",
+    "mark": "Ve",
+    "topics": [
+      "Science",
+      "Engineering"
+    ],
+    "style": "Real experiments",
+    "description": "Run by science communicator Derek Muller, Veritasium explores fascinating questions about the physical world with clarity and fun. Whether it’s debunking common myths or conducting surprising experiments, the channel aims to reveal the “element of truth” behind everyday phenomena. It’s both entertaining and thought-provoking.",
+    "audience": "Curious minds who enjoy real experiments, physics, problem-solving, and discovering surprising truths behind everyday things.",
+    "englishTip": "Pause after a question and predict the answer aloud before watching the explanation.",
+    "url": "https://www.youtube.com/@veritasium",
+    "channelId": "UCHnyfMqiRRG1u-2MsSQLbXA"
+  },
+  {
+    "id": "vsauce",
+    "name": "Vsauce",
+    "mark": "Vs",
+    "topics": [
+      "Big ideas",
+      "Science"
+    ],
+    "style": "Deep thinking",
+    "description": "Michael Stevens (aka Vsauce) takes deep dives into strange and curious questions like “What is nothing?”, “Is your red the same as my red?”, and “Why do we dream?” The channel blends science, philosophy, psychology, and pop culture in a style that’s both weird and wonderful.",
+    "audience": "Students who love mind-blowing questions, deep thinking, philosophy, and videos that make you say: “Wait, what?!”",
+    "englishTip": "Break a longer video into sections and summarise each one in a sentence.",
+    "url": "https://www.youtube.com/@Vsauce",
+    "channelId": "UC6nSFpj9HTCZ5t-N3Rm3-HA"
+  },
+  {
+    "id": "ted",
+    "name": "TED",
+    "mark": "TED",
+    "topics": [
+      "Big ideas"
+    ],
+    "style": "Ideas & stories",
+    "description": "The TED channel hosts short, powerful talks (18 minutes or less) from some of the world’s most inspiring thinkers. Topics include science, creativity, education, leadership, mental health, and global issues. TED’s mission is to spread ideas worth sharing, and many talks include subtitles and classroom-friendly content.",
+    "audience": "Those who want inspiration, real-world stories, or new perspectives on big topics like identity, motivation, technology, or human rights.",
+    "englishTip": "Try a talk with subtitles, then explain the speaker’s main idea in your own words.",
+    "url": "https://www.youtube.com/@TED",
+    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug"
+  },
+  {
+    "id": "melodysheep",
+    "name": "melodysheep",
+    "mark": "ms",
+    "topics": [
+      "Space",
+      "Science"
+    ],
+    "style": "Cinematic journeys",
+    "description": "Created by John D. Boswell, melodysheep blends science, music, and cinematic visuals into awe-inspiring videos. Topics often cover the origin of the universe, time travel, and the far future of humanity, often accompanied by original music compositions. A great choice for students who enjoy poetic storytelling and big-picture science.",
+    "audience": "Dreamers and deep thinkers who enjoy epic science visuals, space, time, music, and future-focused storytelling.",
+    "englishTip": "Let the images give you context. Replay short passages and listen for useful expressions.",
+    "url": "https://www.youtube.com/@melodysheep",
+    "channelId": "UCR9sFzaG9Ia_kXJhfxtFMBA"
+  },
+  {
+    "id": "steve-mould",
+    "name": "Steve Mould",
+    "mark": "Sm",
+    "topics": [
+      "Science",
+      "Engineering"
+    ],
+    "style": "Hands-on science",
+    "description": "Steve Mould is a British science presenter who explains everyday scientific mysteries with clarity and humor. His videos often explore physics and chemistry through real experiments and engaging demonstrations. A great channel for learning how science applies to the world around us.",
+    "audience": "Students who enjoy hands-on experiments, quirky science facts, and understanding how things work in daily life.",
+    "englishTip": "Describe the experiment in English before listening to the explanation.",
+    "url": "https://www.youtube.com/@SteveMould",
+    "channelId": "UCEIwxahdLz7bap-VDs9h35A"
+  },
+  {
+    "id": "rational-animations",
+    "name": "Rational Animations",
+    "mark": "Ra",
+    "topics": [
+      "Big ideas",
+      "Engineering"
+    ],
+    "style": "Animated ideas",
+    "description": "This team of artists and thinkers creates animated videos about rational thinking, human values, and especially AI safety. The topics are highly relevant to the future of technology and society, encouraging viewers to think deeply about ethics, logic, and progress.",
+    "audience": "Students interested in AI, ethics, logic, critical thinking, and how to protect humanity from futuristic risks.",
+    "englishTip": "Make a small glossary of unfamiliar words about ethics and technology.",
+    "url": "https://www.youtube.com/@RationalAnimations",
+    "channelId": "UCgqt1RE0k0MIr0LoyJRy2lg"
+  },
+  {
+    "id": "action-lab",
+    "name": "The Action Lab",
+    "mark": "Al",
+    "topics": [
+      "Science"
+    ],
+    "style": "What-if experiments",
+    "description": "Hosted by a chemical engineer, this channel explores bizarre science experiments that answer “what if?” questions. Whether testing the power of magnets or freezing objects with liquid nitrogen, the videos are exciting, educational, and often surprising.",
+    "audience": "Curious students who love wild experiments, science puzzles, and unexpected discoveries.",
+    "englishTip": "Predict what will happen using ‘I think… because…’, then compare with the result.",
+    "url": "https://www.youtube.com/@TheActionLab",
+    "channelId": "UC1VLQPn9cYSqx8plbk9RxxQ"
+  },
+  {
+    "id": "real-engineering",
+    "name": "Real Engineering",
+    "mark": "Re",
+    "topics": [
+      "Engineering"
+    ],
+    "style": "How things work",
+    "description": "Real Engineering provides in-depth explorations into the world of engineering, aerospace, renewable energy, and design. It combines technical explanations with real-world examples—perfect for students curious about how things work and how engineers solve global problems.",
+    "audience": "Future engineers, inventors, and tech geeks who want to understand the mechanics behind the modern world.",
+    "englishTip": "Use the diagrams to follow technical language. Note three words you can explain afterwards.",
+    "url": "https://www.youtube.com/@RealEngineering",
+    "channelId": "UCR1IuLEqb6UEA_zQ81kwXfg"
+  },
+  {
+    "id": "smarter-every-day",
+    "name": "SmarterEveryDay",
+    "mark": "Se",
+    "topics": [
+      "Science",
+      "Engineering"
+    ],
+    "style": "Everyday discoveries",
+    "description": "Destin, the host of SmarterEveryDay, uses slow-motion cameras, interviews, and scientific curiosity to explain how things work. From physics to biology, the channel mixes personal curiosity with real science to help viewers learn something new every day.",
+    "audience": "Students who love asking questions, exploring the beauty of everyday science, and learning by watching cool things happen in slow motion.",
+    "englishTip": "Listen for questions you could use in a conversation about how something works.",
+    "url": "https://www.youtube.com/@smartereveryday",
+    "channelId": "UC6107grRI4m0o2-emgoDnAA"
+  },
+  {
+    "id": "be-smart",
+    "name": "Be Smart",
+    "mark": "Bs",
+    "topics": [
+      "Nature",
+      "Science"
+    ],
+    "style": "Life’s little mysteries",
+    "description": "Hosted by biologist Joe Hanson, Be Smart answers simple but deep questions like “Why do we yawn?” or “What happens if we go to Mars?” The channel combines humor, storytelling, and great visuals to make science accessible and fun.",
+    "audience": "Learners who enjoy fun explanations, life science, and discovering the weird wonders of the universe.",
+    "englishTip": "Choose one surprising fact and practise telling a friend about it.",
+    "url": "https://www.youtube.com/@besmart",
+    "channelId": "UCH4BNI0-FOK2dMXoFtViWHw"
+  },
+  {
+    "id": "physics-girl",
+    "name": "Physics Girl",
+    "mark": "Pg",
+    "topics": [
+      "Science"
+    ],
+    "style": "Physics in real life",
+    "description": "Dianna Cowern, aka Physics Girl, creates engaging physics videos that explain everyday phenomena, puzzling paradoxes, and the wonders of the universe. She often uses hands-on experiments and interviews with scientists to bring abstract ideas to life.",
+    "audience": "Students who are curious about physics in real life, enjoy experiments and visual learning, or want to be inspired by a female scientist.",
+    "englishTip": "Follow an experiment, then practise describing its steps in order.",
+    "url": "https://www.youtube.com/@physicsgirl",
+    "channelId": "UC7DdEm33SyaTDtWYGO2CwdA"
+  },
+  {
+    "id": "minute-earth",
+    "name": "MinuteEarth",
+    "mark": "Me",
+    "topics": [
+      "Nature",
+      "Science"
+    ],
+    "style": "Short animated stories",
+    "description": "MinuteEarth delivers short animated videos about Earth science, nature, animals, and the environment. The style is friendly and informative—ideal for younger students or anyone who wants to understand how life and ecosystems work.",
+    "audience": "Nature lovers and visual learners who want quick, clear explanations about animals, the environment, and planet Earth.",
+    "englishTip": "Watch a short video twice: first for the idea, then for useful phrases.",
+    "url": "https://www.youtube.com/@MinuteEarth",
+    "channelId": "UCeiYXex_fwgYDonaTcSIk6w"
+  },
+  {
+    "id": "pbs-space-time",
+    "name": "PBS Space Time",
+    "mark": "Ps",
+    "topics": [
+      "Space",
+      "Science"
+    ],
+    "style": "A deeper challenge",
+    "description": "PBS Space Time explores deep questions in astrophysics, black holes, quantum theory, and space-time. Hosted by astrophysicist Matt O’Dowd, the videos are challenging but extremely rewarding for students interested in advanced science and the mysteries of the cosmos.",
+    "audience": "Advanced learners who are passionate about space, physics, cosmology, and pushing their brains to the limit.",
+    "englishTip": "Take it slowly. Pause for unfamiliar concepts and focus on understanding one big idea.",
+    "url": "https://www.youtube.com/@pbsspacetime",
+    "channelId": "UC7_gcs09iThXybpVgjHZ_7g"
+  }
+]
