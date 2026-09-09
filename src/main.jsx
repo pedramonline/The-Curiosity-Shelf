@@ -48,7 +48,7 @@ function ChannelCard({ channel, snapshot, loading, onExplore }) {
   <div className="channel-heading"><ChannelAvatar channel={channel} snapshot={snapshot}/><div><h3>{channel.name}</h3><p className="channel-style">{channel.style}</p></div></div>
   <p className="description">{summaries[channel.id] || channel.description}</p>
   {recent.length>1&&<div className="channel-recent" aria-label={`More uploads from ${channel.name}`}>{recent.slice(1,3).map(video=><UploadPreview key={video.id} video={video} compact/>)}</div>}
-  <button className="explore-link" onClick={onExplore} aria-label={`Explore channel: ${channel.name}`}>Explore channel <span className="upload-count">{recent.length ? `· ${recent.length} recent uploads` : ''}</span><ArrowUpRight size={19}/></button>
+  <button className="explore-link" onClick={onExplore} aria-label={`Explore channel: ${channel.name}`}>Explore channel <ArrowUpRight size={19}/></button>
  </article>;
 }
 

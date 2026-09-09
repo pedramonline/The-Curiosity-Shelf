@@ -11,3 +11,5 @@
 - Local production Lighthouse: performance 98, accessibility 100, best practices 100, SEO 100. Local lab results are not a guarantee of real-user performance.
 
 Raw screenshots and Lighthouse JSON remain local in docs/qa and are excluded from Git to keep the repository lean.
+
+Channel visuals update: all 14 verified avatars and featured thumbnails load; 28 additional previews and nine uploads per channel detail. Eight feed/artwork tests and browser interaction checks pass. Real-image update Lighthouse: 98 performance, 100 accessibility, 100 best practices, 100 SEO.
