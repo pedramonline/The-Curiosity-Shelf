@@ -2,6 +2,8 @@
 import concurrent.futures
 import datetime as dt
 import json
+from html.parser import HTMLParser
+from urllib.parse import urlparse
 import re
 import time
 import urllib.request
@@ -21,6 +23,25 @@ def fetch(url):
             if attempt == 2:
                 raise
             time.sleep(attempt + 1)
+
+class ChannelArtworkParser(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.avatar = None
+
+    def handle_starttag(self, tag, attrs):
+        attrs = dict(attrs)
+        if tag == 'meta' and attrs.get('property') == 'og:image':
+            url = attrs.get('content', '')
+            if urlparse(url).scheme == 'https' and urlparse(url).hostname in ('yt3.googleusercontent.com', 'yt3.ggpht.com'):
+                self.avatar = url
+
+def channel_artwork(html):
+    parser = ChannelArtworkParser()
+    parser.feed(html)
+    if not parser.avatar:
+        raise ValueError('Channel avatar missing from metadata')
+    return parser.avatar
 
 def resolve_channel(html):
     # Prefer channel metadata, never a related video's channel ID.
@@ -66,7 +87,15 @@ def refresh_channel(channel, previous, now):
     videos = parse_feed(xml, channel['id'], channel_id)
     if not videos:
         raise ValueError('Feed returned no usable uploads')
-    return {'channelId': channel_id, 'updatedAt': now, 'videos': videos}
+    avatar = previous.get('avatarUrl') or channel.get('avatarUrl')
+    try:
+        html = fetch(channel['url'])
+        if resolve_channel(html) != channel_id:
+            raise ValueError('Artwork page belongs to another channel')
+        avatar = channel_artwork(html)
+    except Exception as error:
+        print(f"Artwork warning for {channel['name']}: {error}; retaining previous avatar", flush=True)
+    return {'channelId': channel_id, 'updatedAt': now, 'videos': videos, 'avatarUrl': avatar}
 
 def merge_snapshot(channels, previous, successes, errors, now):
     saved = {c['id']: previous.get('channels', {}).get(c['id'], {}) for c in channels}

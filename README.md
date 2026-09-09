@@ -32,7 +32,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). Give Codex a channel link and your recom
 
 ## Sources and assets
 
-Descriptions and audience notes: Pedro's English YouTube Library (2025). The source Google document is unchanged. Channel monograms are text identifiers, not official logos. Video thumbnails come from YouTube and link to their videos. No embedded players, analytics or user accounts.
+Descriptions and audience notes: Pedro's English YouTube Library (2025). The source Google document is unchanged. Channel avatars are retrieved from verified YouTube channel metadata; each channel entry includes real thumbnails and a recent-upload feed. Video thumbnails come from YouTube and link to their videos. No embedded players, analytics or user accounts.
 
 Hero artwork and design references were created with the built-in image generation tool. See [design notes](docs/design/README.md).
 

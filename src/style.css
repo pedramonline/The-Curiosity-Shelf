@@ -6,3 +6,35 @@
 @media(max-width:1100px){.shell{width:calc(100% - 64px)}.nav nav{gap:20px}.brand{font-size:22px}.hero{gap:28px}.hero h1{font-size:64px}.hero-actions{gap:18px;flex-wrap:wrap}.section-heading{align-items:flex-start;flex-direction:column}.search{width:100%;max-width:480px}.channel-grid{column-gap:25px}.channel h3{font-size:22px}.channel-heading{gap:12px}}
 @media(max-width:760px){.shell{width:calc(100% - 40px)}.nav{height:auto;padding-top:22px;flex-wrap:wrap;gap:15px}.nav .brand{font-size:22px}.theme{margin-left:auto}.nav nav{order:3;width:100%;margin:0;gap:23px;font-size:14px;padding-bottom:10px;overflow:auto}.hero{grid-template-columns:1fr;padding-block:33px 57px;gap:34px}.hero h1{font-size:clamp(58px,12vw,80px)}.hero .eyebrow{font-size:11px}.intro{font-size:21px;margin-top:22px}.hero-actions{margin-top:25px;gap:24px}.hero figure img{aspect-ratio:1.5}.hero figcaption{font-size:10px}.channel-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:0 24px}.channel-heading{align-items:flex-start;flex-direction:column;gap:14px}.channel h3{font-size:24px}.filters{gap:5px}.filters button{padding:10px 16px}.video-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 20px}.fresh{padding-top:65px}.note{grid-template-columns:1fr;gap:27px;margin-top:60px;padding-block:40px}.note h2 br{display:none}.note .note-lead{font-size:21px}.footer{align-items:flex-start;flex-direction:column;gap:13px}.dialog-content{padding:42px 25px 28px}}
 @media(max-width:430px){.channel-grid,.video-grid{grid-template-columns:1fr}.channel-heading{flex-direction:row;align-items:center}.channel .description{margin-top:14px}.channel{padding-block:27px}.hero-actions{gap:18px}.button{padding-inline:17px}.filters{gap:0}.filters button{padding-inline:14px}.hero h1{font-size:58px}.section-heading h2{max-width:330px}}
+/* Real channel identities and per-channel upload previews. */
+.collection-feed-note{font-size:13px;margin-top:5px}
+.channel-avatar{width:56px;height:56px;object-fit:cover;border-radius:50%;flex-shrink:0;background:var(--wash)}
+.avatar-fallback{display:grid;place-items:center}
+.channel .channel-heading{margin-top:23px;align-items:center;flex-direction:row}
+.channel-style{font-size:12px;margin-top:6px}
+.channel-upload{display:block;min-width:0}
+.channel-upload:hover .upload-title{text-decoration:underline;text-underline-offset:3px;color:var(--green)}
+.featured-upload .thumbnail{border-radius:6px}
+.upload-date{display:block;font-size:11px;color:var(--muted);margin-bottom:5px}
+.upload-title{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-weight:500;font-size:16px;line-height:1.35;letter-spacing:-.01em}
+.featured-upload .upload-caption{padding-top:12px;min-height:68px}
+.featured-upload .upload-title{font-size:18px;font-weight:600}
+.channel .description{font-size:16px;margin-block:16px 20px}
+.channel-recent{display:grid;gap:15px;margin-bottom:22px}
+.compact-upload{display:grid;grid-template-columns:112px minmax(0,1fr);gap:12px;align-items:center}
+.compact-upload .thumbnail{border-radius:4px}
+.compact-upload .upload-title{font-size:14px}
+.channel .explore-link{font-size:15px;gap:5px;flex-wrap:wrap}
+.upload-count{font-size:12px;color:var(--muted);font-weight:400}
+.channel-feed-placeholder{aspect-ratio:16/9;background:var(--wash);display:grid;place-items:center;color:var(--muted);font-size:14px;border-radius:6px}
+.image-unavailable{display:grid;place-items:center;height:100%;font-size:12px;color:var(--muted)}
+.detail-channel-heading{display:flex;gap:18px;align-items:center;margin-bottom:24px}
+.detail-channel-heading h2{margin:0;font-size:36px}
+.detail-feed{padding-bottom:25px;margin-bottom:25px;border-bottom:1px solid var(--line)}
+.detail-feed h3{margin-top:0}
+.detail-feed .detail-feed-note{font-size:13px;margin-bottom:20px}
+.detail-uploads{display:grid;gap:17px;max-height:420px;overflow-y:auto;padding:5px 8px 5px 5px;overscroll-behavior:contain}
+.detail-uploads .compact-upload{grid-template-columns:145px minmax(0,1fr)}
+.detail-uploads .upload-title{font-size:16px}
+@media(max-width:1100px) and (min-width:761px){.compact-upload{grid-template-columns:85px minmax(0,1fr)}}
+@media(max-width:430px){.detail-uploads .compact-upload{grid-template-columns:96px minmax(0,1fr)}.detail-uploads .upload-title{font-size:14px}.detail-channel-heading h2{font-size:29px}}

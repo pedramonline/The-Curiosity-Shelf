@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-09-09T07:20:35.958437+00:00",
-  "updatedAt": "2026-09-09T07:20:35.958437+00:00",
+  "checkedAt": "2026-09-09T07:34:08.127109+00:00",
+  "updatedAt": "2026-09-09T07:34:08.127109+00:00",
   "channels": {
     "kurzgesagt": {
       "channelId": "UCsXVk37bltHxD1rDPwtNM8Q",
-      "updatedAt": "2026-09-09T07:20:35.958437+00:00",
+      "updatedAt": "2026-09-09T07:34:08.127109+00:00",
       "videos": [
         {
           "id": "NIifnIP_NnQ",
@@ -60,11 +60,12 @@
           "published": "2026-08-17T14:00:07+00:00",
           "channel": "kurzgesagt"
         }
-      ]
+      ],
+      "avatarUrl": "https://yt3.googleusercontent.com/ytc/AIdro_n1Ribd7LwdP_qKtqWL3ZDfIgv9M1d6g78VwpHGXVR2Ir4=s900-c-k-c0x00ffffff-no-rj"
     },
     "veritasium": {
       "channelId": "UCHnyfMqiRRG1u-2MsSQLbXA",
-      "updatedAt": "2026-09-09T07:20:35.958437+00:00",
+      "updatedAt": "2026-09-09T07:34:08.127109+00:00",
       "videos": [
         {
           "id": "oR94cicO7xM",
@@ -120,11 +121,12 @@
           "published": "2026-07-30T13:00:16+00:00",
           "channel": "veritasium"
         }
-      ]
+      ],
+      "avatarUrl": "https://yt3.googleusercontent.com/7vCbvtCqtjQ3YLgsJt7Y952MQV1sBvhllSCSxHP8_sVZdcPCBrITfhkN2RdyCuwPnsByq-1GoA=s900-c-k-c0x00ffffff-no-rj"
     },
     "vsauce": {
       "channelId": "UC6nSFpj9HTCZ5t-N3Rm3-HA",
-      "updatedAt": "2026-09-09T07:20:35.958437+00:00",
+      "updatedAt": "2026-09-09T07:34:08.127109+00:00",
       "videos": [
         {
           "id": "Yhg-DtVUO4A",
@@ -180,11 +182,12 @@
           "published": "2026-08-05T23:42:31+00:00",
           "channel": "vsauce"
         }
-      ]
+      ],
+      "avatarUrl": "https://yt3.googleusercontent.com/ytc/AIdro_mpYedipdXUXCKkwjQEeFrepFlDHZ0LiczqWeKyG0YmJvA=s900-c-k-c0x00ffffff-no-rj"
     },
     "ted": {
       "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
-      "updatedAt": "2026-09-09T07:20:35.958437+00:00",
+      "updatedAt": "2026-09-09T07:34:08.127109+00:00",
       "videos": [
         {
           "id": "ZpXe7KMyLU8",
@@ -240,11 +243,12 @@
           "published": "2026-09-04T15:00:08+00:00",
           "channel": "ted"
         }
-      ]
+      ],
+      "avatarUrl": "https://yt3.googleusercontent.com/ytc/AIdro_koIFcCOrvh0KThLNOiazAIDu6hcs8bjkGNwe1f6A_OYm8=s900-c-k-c0x00ffffff-no-rj"
     },
     "melodysheep": {
       "channelId": "UCR9sFzaG9Ia_kXJhfxtFMBA",
-      "updatedAt": "2026-09-09T07:20:35.958437+00:00",
+      "updatedAt": "2026-09-09T07:34:08.127109+00:00",
       "videos": [
         {
           "id": "QTQVZuBV9oA",
@@ -300,11 +304,12 @@
           "published": "2025-06-03T16:32:06+00:00",
           "channel": "melodysheep"
         }
-      ]
+      ],
+      "avatarUrl": "https://yt3.googleusercontent.com/ytc/AIdro_klHVaP6_ZcnT8VyPFedRHgJOPOym_tLSxoFCL0KJSZL1k=s900-c-k-c0x00ffffff-no-rj"
     },
     "steve-mould": {
       "channelId": "UCEIwxahdLz7bap-VDs9h35A",
-      "updatedAt": "2026-09-09T07:20:35.958437+00:00",
+      "updatedAt": "2026-09-09T07:34:08.127109+00:00",
       "videos": [
         {
           "id": "k3Q9UWWiPsQ",
@@ -360,11 +365,12 @@
           "published": "2026-06-19T11:30:12+00:00",
           "channel": "steve-mould"
         }
-      ]
+      ],
+      "avatarUrl": "https://yt3.googleusercontent.com/iX-akiHlJYuPDq4YVBO83cfjWW0aQefdewmI326XVhZkzxnS3MrqNVi49J33jLBw5LR_ZVyKFA=s900-c-k-c0x00ffffff-no-rj"
     },
     "rational-animations": {
       "channelId": "UCgqt1RE0k0MIr0LoyJRy2lg",
-      "updatedAt": "2026-09-09T07:20:35.958437+00:00",
+      "updatedAt": "2026-09-09T07:34:08.127109+00:00",
       "videos": [
         {
           "id": "2Wv3p9WCs6M",
@@ -420,11 +426,12 @@
           "published": "2026-07-05T16:15:01+00:00",
           "channel": "rational-animations"
         }
-      ]
+      ],
+      "avatarUrl": "https://yt3.googleusercontent.com/8LaC125xLp9MBvj8w90KRa3GgILpazDxaPlWTeJlGPpFqHU3SjTIrlnCLpbUb54SQHR-qATDjQ=s900-c-k-c0x00ffffff-no-rj"
     },
     "action-lab": {
       "channelId": "UC1VLQPn9cYSqx8plbk9RxxQ",
-      "updatedAt": "2026-09-09T07:20:35.958437+00:00",
+      "updatedAt": "2026-09-09T07:34:08.127109+00:00",
       "videos": [
         {
           "id": "y3P77vz0QyU",
@@ -480,11 +487,12 @@
           "published": "2026-06-13T15:03:05+00:00",
           "channel": "action-lab"
         }
-      ]
+      ],
+      "avatarUrl": "https://yt3.googleusercontent.com/ytc/AIdro_kTOs0UyOMP5bctTLw4SyZMgNkQGsYNVNbLTNf4VHLCq9c=s900-c-k-c0x00ffffff-no-rj"
     },
     "real-engineering": {
       "channelId": "UCR1IuLEqb6UEA_zQ81kwXfg",
-      "updatedAt": "2026-09-09T07:20:35.958437+00:00",
+      "updatedAt": "2026-09-09T07:34:08.127109+00:00",
       "videos": [
         {
           "id": "rCM6dvK2Hjg",
@@ -540,11 +548,12 @@
           "published": "2026-06-06T15:00:07+00:00",
           "channel": "real-engineering"
         }
-      ]
+      ],
+      "avatarUrl": "https://yt3.googleusercontent.com/ytc/AIdro_mzOoa3L9W_0hApabWg66Ryujuw7FGmLt23dOpIoO5mVNaC=s900-c-k-c0x00ffffff-no-rj"
     },
     "smarter-every-day": {
       "channelId": "UC6107grRI4m0o2-emgoDnAA",
-      "updatedAt": "2026-09-09T07:20:35.958437+00:00",
+      "updatedAt": "2026-09-09T07:34:08.127109+00:00",
       "videos": [
         {
           "id": "vS6HEes8daw",
@@ -600,11 +609,12 @@
           "published": "2025-06-08T19:52:05+00:00",
           "channel": "smarter-every-day"
         }
-      ]
+      ],
+      "avatarUrl": "https://yt3.googleusercontent.com/ytc/AIdro_l59Ewmp0DHZBRWbY9dVqjd2_mWwvrn8ad0bJfmdbMRYcA=s900-c-k-c0x00ffffff-no-rj"
     },
     "be-smart": {
       "channelId": "UCH4BNI0-FOK2dMXoFtViWHw",
-      "updatedAt": "2026-09-09T07:20:35.958437+00:00",
+      "updatedAt": "2026-09-09T07:34:08.127109+00:00",
       "videos": [
         {
           "id": "bLX4CSzjRAg",
@@ -660,11 +670,12 @@
           "published": "2026-07-02T14:01:17+00:00",
           "channel": "be-smart"
         }
-      ]
+      ],
+      "avatarUrl": "https://yt3.googleusercontent.com/vZZ2-IB7QjYxt-VQPzQyMVqxBQZVWaL-hYu1WsZLsMCtqH0ECwhCWfeMmMP-kPiQsNgES2nglA=s900-c-k-c0x00ffffff-no-rj"
     },
     "physics-girl": {
       "channelId": "UC7DdEm33SyaTDtWYGO2CwdA",
-      "updatedAt": "2026-09-09T07:20:35.958437+00:00",
+      "updatedAt": "2026-09-09T07:34:08.127109+00:00",
       "videos": [
         {
           "id": "p7YSGK_V2vM",
@@ -720,11 +731,12 @@
           "published": "2026-04-18T18:04:08+00:00",
           "channel": "physics-girl"
         }
-      ]
+      ],
+      "avatarUrl": "https://yt3.googleusercontent.com/ytc/AIdro_mHLaE8gTxfKJQk8IzA0W-eRAhkogyb1B_aU2yzafp3ots=s900-c-k-c0x00ffffff-no-rj"
     },
     "minute-earth": {
       "channelId": "UCeiYXex_fwgYDonaTcSIk6w",
-      "updatedAt": "2026-09-09T07:20:35.958437+00:00",
+      "updatedAt": "2026-09-09T07:34:08.127109+00:00",
       "videos": [
         {
           "id": "0AfM2Jitsps",
@@ -780,11 +792,12 @@
           "published": "2026-08-07T16:00:22+00:00",
           "channel": "minute-earth"
         }
-      ]
+      ],
+      "avatarUrl": "https://yt3.googleusercontent.com/ytc/AIdro_katEIhwNI2gGmuRx4MGjzfCAn_VT96ty5YxNLQCY-MjQ=s900-c-k-c0x00ffffff-no-rj"
     },
     "pbs-space-time": {
       "channelId": "UC7_gcs09iThXybpVgjHZ_7g",
-      "updatedAt": "2026-09-09T07:20:35.958437+00:00",
+      "updatedAt": "2026-09-09T07:34:08.127109+00:00",
       "videos": [
         {
           "id": "mxpuV33vpNk",
@@ -840,7 +853,8 @@
           "published": "2026-04-30T20:15:00+00:00",
           "channel": "pbs-space-time"
         }
-      ]
+      ],
+      "avatarUrl": "https://yt3.googleusercontent.com/A7npG37dOJQffCnkUAyHI8wxnYhWA2q9SQY58AJ_bZUgKv30RtKD9sz5FQs4fs9-xWCg9S0P5jw=s900-c-k-c0x00ffffff-no-rj"
     }
   },
   "videos": [

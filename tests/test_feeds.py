@@ -1,10 +1,17 @@
 import unittest
-from scripts.refresh_feeds import parse_feed, merge_snapshot, resolve_channel
+from scripts.refresh_feeds import parse_feed, merge_snapshot, resolve_channel, channel_artwork
 
 CID = 'UC' + 'a' * 22
 XML = f'''<feed xmlns="http://www.w3.org/2005/Atom" xmlns:yt="http://www.youtube.com/xml/schemas/2015"><yt:channelId>{CID}</yt:channelId><entry><yt:videoId>abcdefghijk</yt:videoId><title>Science &amp; wonder</title><published>2026-09-08T10:00:00Z</published></entry></feed>'''
 
 class FeedsTest(unittest.TestCase):
+    def test_extracts_channel_artwork(self):
+        self.assertEqual(channel_artwork('<meta content="https://yt3.googleusercontent.com/avatar" property="og:image">'), 'https://yt3.googleusercontent.com/avatar')
+
+    def test_rejects_untrusted_artwork_host(self):
+        with self.assertRaises(ValueError):
+            channel_artwork('<meta property="og:image" content="https://example.com/avatar">')
+
     def test_prefixless_feed_requires_canonical(self):
         xml = XML.replace(f'<yt:channelId>{CID}</yt:channelId>', f'<yt:channelId>{CID[2:]}</yt:channelId><link rel="alternate" href="https://www.youtube.com/channel/{CID}"/>')
         self.assertEqual(len(parse_feed(xml, 'test', CID)), 1)
